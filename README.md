@@ -1,4 +1,5 @@
 # redux-ipc-electron
+[![NPM version](https://img.shields.io/npm/v/redux-ipc-electron.svg?style=flat)](https://www.npmjs.com/package/redux-ipc-electron)
 [![Build Status](https://travis-ci.org/Dilatorily/redux-ipc-electron.svg?branch=master)](https://travis-ci.org/Dilatorily/redux-ipc-electron)
 [![codecov](https://codecov.io/gh/Dilatorily/redux-ipc-electron/branch/master/graph/badge.svg)](https://codecov.io/gh/Dilatorily/redux-ipc-electron)
 

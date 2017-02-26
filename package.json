@@ -1,6 +1,6 @@
 {
   "name": "redux-ipc-electron",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redux IPC Middleware for Electron",
   "main": "dist/index.js",
   "scripts": {
