@@ -21,10 +21,7 @@ var SYNC_MAIN_STORE = '@@redux-ipc-electron/SYNC_MAIN_STORE';
 var REQUEST_STATE = '@@redux-ipc-electron/REQUEST_STATE';
 var RESPONSE_STATE = '@@redux-ipc-electron/RESPONSE_STATE';
 
-var reducer = function reducer() {
-  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-  var action = arguments[1];
-
+var reducer = function reducer(state, action) {
   switch (action.type) {
     case UPDATE_MAIN_STORE:
       return _extends({}, state, _defineProperty({}, action.identifier, _extends({}, action.state)));
