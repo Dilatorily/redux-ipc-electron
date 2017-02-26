@@ -1,0 +1,8 @@
+.*
+!.babelrc
+!.editorconfig
+!.eslintrc
+!.gitignore
+!.travis.yml
+coverage
+node_modules

@@ -1,0 +1,49 @@
+{
+  "name": "redux-ipc-electron",
+  "version": "1.0.0",
+  "description": "Redux IPC Middleware for Electron",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "babel src --out-dir dist --ignore __tests__,__mocks__",
+    "lint": "eslint src/**",
+    "pretest": "npm run lint",
+    "test": "jest --coverage --collectCoverageFrom=src/**/*.js --coverageDirectory=coverage",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dilatorily/redux-ipc-electron.git"
+  },
+  "keywords": [
+    "Redux",
+    "Electron",
+    "IPC",
+    "Middleware"
+  ],
+  "author": "Huy Dang Lê-Ngô",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dilatorily/redux-ipc-electron/issues"
+  },
+  "homepage": "https://github.com/Dilatorily/redux-ipc-electron#readme",
+  "peerDependencies": {
+    "electron": "^1.6.1",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-jest": "^19.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "electron": "^1.6.1",
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "jest": "^19.0.2",
+    "redux": "^3.6.0",
+    "rimraf": "^2.6.1"
+  }
+}
